@@ -55,7 +55,7 @@ html, body{
 }
 .main-header{
     background-color: rgba(0,0,0,.6);/*black*/
-    background-image: url("images/vinay.jpg");
+    background-image: url("images/books.jpg");
     background-blend-mode: multiply;/*as css can only use color or image we use blend*/
     /*multiply combines these color and image*/
     /*make sure everything is in line and not zig zag*/
@@ -77,12 +77,14 @@ html, body{
 
 .content-section{
     margin:1em; /*to distinguish from other elements*/
+	
 }
 
 .container{
     max-width: 900px;
     margin: 0 auto;/*text in center*/
     padding: 0 1 .5em;
+	
 }
 .section-header{
     font-family: "Metal Mania";
@@ -118,6 +120,15 @@ html, body{
 .footer-nav img{
     width:100px;
     height:120px;
+}
+.back-img{
+	 background-color: rgba(0,0,0,.6);/*black*/
+    background-image: url("images/books1.jpg");
+    background-blend-mode: multiply;/*as css can only use color or image we use blend*/
+    /*multiply combines these color and image*/
+    /*make sure everything is in line and not zig zag*/
+    background-size: cover; /*cover tells to expand as much as it can* until one of the borders is at its edge*/
+    padding-bottom: 30px;
 }
 
 
